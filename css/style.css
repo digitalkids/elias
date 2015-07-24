@@ -1,0 +1,49 @@
+.origine {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.imagini {
+  margin-left: 50px;
+}
+
+.imagini img {
+  width: 300px;
+  height: 300px;
+}
+
+body {
+  background-image: URL("http://radio.ubm.ro/Imagini/fundal.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subliniat {
+  text-decoration: underline;
+  color: A23645;
+}
+
+p:hover {
+  color: yellow;
+}
+
+ul:hover {
+  color: yellow;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1:hover {
+  color: red;
+}
+
+img:hover {
+  border: 5px solid gray;
+  border-radius: 30%;
+}
